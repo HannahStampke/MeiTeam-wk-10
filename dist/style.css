@@ -1,0 +1,35 @@
+:root {
+    --feijoa: #a2d187;
+    --riverbed: #404a59;
+    --jaggedice: #cae9eb;
+    --hopbush: #ce6897;
+  }
+  
+body {
+    font-family: sans-serif;
+    background-color: var(--riverbed);
+    color: var(--hopbush);
+    font-weight: bold;
+}
+
+.card {
+    border-color: var(--jaggedice);
+}
+
+.card-header {
+    background-color: var(--jaggedice);
+}
+
+#navbar-text {
+    font-size: 80pt;
+}
+
+a {
+    color: var(--riverbed);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--feijoa);
+    text-decoration: none;
+}
